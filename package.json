@@ -1,0 +1,53 @@
+{
+    "app_name": "RSD",
+    "author": "SSN",
+    "build": {
+        "nwVersion": "0.45.1.0"
+    },
+    "dependencies": {
+        "nwjs-builder-phoenix": "^1.15.0"
+    },
+    "description": "Rigging Sheet Designer",
+    "devDependencies": {
+        "nw": "0.45.1"
+    },
+    "directories": {
+        "lib": "lib"
+    },
+    "keywords": [
+        "PA",
+        "Rigging"
+    ],
+    "license": "ISC",
+    "main": "main.html",
+    "name": "riggingsheetdesigner",
+    "scripts": {
+        "test": "test"
+    },
+    "version": "1.1.7",
+    "webexe_settings": {
+        "blacklist": "\n.git\n.vscode\n",
+        "custom_script": "",
+        "download_dir": "",
+        "export_dir": "C:/Users/sixty/Desktop/rsd_build",
+        "force_download": false,
+        "mac-x64": true,
+        "nw_compression_level": 0,
+        "nw_version": "0.45.3",
+        "output_pattern": "RSD",
+        "sdk_build": false,
+        "uncompressed_folder": false,
+        "whitelist": "",
+        "windows-x64": true
+    },
+    "webkit": {},
+    "window": {
+        "exe_icon": "app.png",
+        "icon": "images/app.png",
+        "id": "RSD",
+        "mac_icon": "app.png",
+        "position": "center",
+        "title": "R S D",
+        "toolbar": true
+    }
+}
